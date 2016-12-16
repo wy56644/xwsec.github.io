@@ -1,24 +1,24 @@
 # Basic
-title: bsmali4的小窝
+title: xwsec的小窝
 subtitle: 个人小窝
 description: 明明真的很帅~
 # 头像里面的标题
-avatarTitle: bsmali4
+avatarTitle: xwsec
 # 头像里面的描述
 avatarDesc: 网络安全 / 编程开发
-url: "http://www.codersec.net"
+url: "xss.top"
 
 # Comment
 comment:
     # disqus: leopard
-    duoshuo: bsmali4 
+    duoshuo: xwsec
 
 # Social
 social:
     weibo: no 
-    github: bsmali4
+    github: xwsec
     # twitter: 
-    mail: root@codersec.net
+    mail: xwsec@qq.com
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 
