@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 我的收藏
+title: 友情链接
 ---
 
 * [  码蚁 ](http://lonf.me/) 
